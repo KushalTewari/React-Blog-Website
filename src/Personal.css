@@ -1,0 +1,93 @@
+.Personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+.soloBlogCard{
+    margin: 3%;
+    padding: 2%;
+    width: 80%;
+    min-height: 60vh;
+    background-color: white;
+    box-shadow: 1px 3px 5px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.soloBlogCard:hover{
+    transform: scale(1.01, 1.01);
+    box-shadow: 1px 3px 10px black;
+    transition: all 0.3s ease-in-out;
+}
+.soloBlogCard h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 3vw;
+    color: rgb(70, 70, 70);
+}
+
+.soloContents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 35vh;
+}
+
+.soloContents p{
+    width: 65%;
+    color: grey;
+}
+
+.soloContents img{
+    width: 33%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 13px rgb(184, 184, 184);
+    -webkit-box-shadow: 0 0 13px rgb(160, 160, 160); 
+}
+
+.updateForm{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.updateForm input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    font-size: 2vw;
+}
+.updateForm input[type="text"]:focus
+{
+    outline: 0;
+}
+
+.updateForm textarea{
+    width: 80%;
+    padding: 2%;
+    min-height: 25vh;
+    font-size: 1.5vw;
+}
+
+.updateForm button{
+    margin: 5%;
+    padding: 2%;
+    width: 10vw;
+    background-color: rgb(32, 189, 32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.Navbar{
+    min-height: 10vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.logoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    min-height: 13vh;
+    cursor: pointer;
+}
+.logoArea img{
+    width: 30%;
+    transform: rotateY(180deg);
+    filter: brightness(120%);
+}
+.logoArea h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3.5vw;
+    color: white;
+    font-variant: small-caps;
+}
+.contentsArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    min-height: 13vh;
+}
+
+.contentsArea button:first-child{
+    padding: 2%;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    border: 2px solid black;
+}
+
+.contentsArea button:last-child{
+    padding: 2%;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.contentsArea button:hover{
+    border-bottom: 2px solid white;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    cursor: pointer;
+}
+
+.contentsArea h3{
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2vw;
+    font-weight: lighter;
+}

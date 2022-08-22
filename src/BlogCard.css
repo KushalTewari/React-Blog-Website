@@ -1,0 +1,143 @@
+.BlogCard{
+    margin: 3%;
+    padding: 2%;
+    width: 80%;
+    min-height: 65vh;
+    background-color: rgb(240, 255, 254);
+    box-shadow: 1px 3px 5px grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.BlogCard:hover{
+    transform: scale(1.01, 1.01);
+    box-shadow: 1px 3px 10px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.detailsArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    min-height: 60vh;
+    width: 65%;
+    padding: 1%;
+    word-wrap: break-word;
+}
+.userArea{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 1.9vw;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    color: rgb(11, 98, 168);
+}
+
+.userArea > button{
+    border: none;
+    padding: 0.2vw;
+    background-color: transparent;
+    color: steelblue;
+    margin-left: auto;
+}
+.userArea > button:hover{
+    background-color: rgb(228, 243, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.detailsArea h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 3vw;
+    color: rgb(70, 70, 70);
+}
+
+.detailsArea p{
+    font-size: 1.4vw;
+    color: grey;
+}
+
+.imageArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 40vh;
+    padding: 2%;
+}
+.imageArea img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 13px rgb(184, 184, 184);
+    -webkit-box-shadow: 0 0 13px rgb(160, 160, 160); 
+}
+
+.drawerArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 90vh;
+    width: 100%;
+    background-color: azure;
+    padding: 5%;
+}
+
+.drawerArea button{
+    padding: 1%;
+    font-size: 2vw;
+    border: none;
+    background-color: azure;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+}
+
+.drawerArea button:hover{
+    background-color: rgb(255, 218, 218);
+    color: crimson;
+}
+
+.drawerArea img{
+    width: 50%;
+    height: 30vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 5px 10px black;
+}
+
+.drawerArea h1{
+    font-size: 4vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-variant: small-caps;
+}
+
+.drawerArea h6{
+    font-size: 1.6vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: lighter;
+    color: rgb(36, 36, 36);
+}
+
+.drawerArea p{
+    margin-left: auto;
+    font-size: 1.5vw;
+}

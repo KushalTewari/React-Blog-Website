@@ -1,0 +1,174 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.rowArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100%;
+}
+.styleImage{
+    width: 30%;
+    min-height: 90vh;
+}
+.styleImage img{
+    width: 100%;
+    height: 90vh;
+}
+
+.addPost{
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(57, 48, 184);
+     box-shadow: 0 0 13px grey;
+    -webkit-box-shadow: 0 0 13px grey; 
+}
+.addPost:hover{
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+    transition: all 0.3s ease-in-out;
+}
+.blogArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    height: 90vh;
+    border-left: 1px solid rgb(212, 212, 212);
+    overflow-y: scroll;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 45vh;
+}
+
+.form input[type="text"]{
+    padding: 1%;
+    font-size: 1.5vw;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form textarea{
+    padding: 1%;
+    font-size: 1.5vw;
+    width: 40vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form button{
+    padding: 1%;
+    font-size: 1.3vw;
+    font-variant: small-caps;
+    width: 10vw;
+    border: none;
+    background-color: rgb(21, 200, 21);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.uploadedImage{
+    width: 30%;
+    height: 15vh;
+}
+.uploadedImage img{
+    width: 100%;
+    height: 100%;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 35vh;
+}
+
+.loginForm input{
+    padding: 1%;
+    font-size: 1.5vw;
+    border: none;
+    width: 60%;
+    border-bottom: 1px solid black;
+}
+
+.loginForm input:focus{
+    outline: none;
+}
+.loginForm button{
+    padding: 1%;
+    font-size: 1.5vw;
+    font-variant: small-caps;
+    width: 10vw;
+    border: none;
+    background-color: rgb(21, 200, 21);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginForm p{
+    font-size: 1.5vw;
+    color: grey;
+}
+
+.blueText{
+    color: dodgerblue;
+    cursor: pointer;
+    font-size: 1.6vw;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 55vh;
+}
+
+.registerForm input{
+    width: 100%;
+    padding: 2%;
+    font-size: 1.4vw;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.registerForm input:focus{
+    outline: none;
+}
+
+.registerForm button{
+    padding: 2%;
+    font-size: 1.5vw;
+    font-variant: small-caps;
+    width: 10vw;
+    border: none;
+    background-color: rgb(21, 200, 21);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
